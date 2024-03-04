@@ -13,9 +13,7 @@ for (i = 0; i < images.length; i++){
 }
 
 setInterval(goNext, 3000);
-// carosel.addEventListener('mouseover', function(){
-//   clearInterval(goNext())
-// });
+
 carosel.addEventListener('mouseover', () => {
   allowNext = false;
 });
